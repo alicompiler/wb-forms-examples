@@ -15,7 +15,11 @@ module.exports = {
       warning: colors.amber,
       transparent: '#0000',
     },
-    extend: {},
+    extend: {
+      width: {
+        '200': '200px'
+      }
+    },
   },
   variants: {
     extend: {},
