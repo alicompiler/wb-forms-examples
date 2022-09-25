@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "wb-forms": "^0.3.3",
+    "wb-forms-tailwindcss": "^0.3.2"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",

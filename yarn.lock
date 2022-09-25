@@ -8679,6 +8679,29 @@ watchpack@^2.4.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
+wb-core-provider@^0.4.1:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/wb-core-provider/-/wb-core-provider-0.4.2.tgz#7b3121f27439ed9079e46cb52ce65891042b5bd9"
+  integrity sha512-r34OAUpFWRRq9Y2E8bWx2PDZG/VxTJpjh96jjsTu1ggswDPyMrKkvNBCa1Qnon1ouSQ3nRQHwwW4uUL7VlsUkQ==
+
+wb-forms-tailwindcss@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/wb-forms-tailwindcss/-/wb-forms-tailwindcss-0.3.2.tgz#7c20026dc90df2fa776bf3ed660a35abe5d31a1c"
+  integrity sha512-sQnNbGJdNehb/oxhn6V93/C8zRIqZgrUoZGmWE6wq6SG1ZY0A38Eq+1Dva7gWhMHu4YN+JWlWZ01NteNm8kgww==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    wb-forms "^0.3.3"
+
+wb-forms@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/wb-forms/-/wb-forms-0.3.3.tgz#48f469ddb3be9a83376927ed10a26a398c78266c"
+  integrity sha512-v1smUrjPYs+p82Ip0DfVIGy7tA4FC99WF+snE6MS0DYjhw0ycshWHoh+t8jpFRhtUanW4nv4sMJlyC42J2xaKw==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    wb-core-provider "^0.4.1"
+
 wbuf@^1.1.0, wbuf@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.3.tgz#c1d8d149316d3ea852848895cb6a0bfe887b87df"
