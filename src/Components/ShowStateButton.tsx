@@ -10,7 +10,8 @@ export const ShowStateButton: React.FC = () => {
         return keys.reduce((acc, value) => ({...acc, [value]: state.fields[value].value}), {});
     }, [state]);
     return <>
-        <button onClick={() => setShowCode(!showCode)}>
+        <button style={{padding: 8, background: '#0064aa', borderRadius: 3, color: 'white', border: 'none', width: 160}}
+                onClick={() => setShowCode(!showCode)}>
             {showCode ? 'HIDE VALUES' : 'SHOW VALUES'}
         </button>
         {
