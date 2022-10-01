@@ -20,8 +20,7 @@ export const NavigationBar: React.FC<Props> = (props) => {
 
 const NavigationLink: React.FC<{ target: string, title: string }> = ({target, title}) => {
     return <Link to={target}>
-        <button data-target={'/basic'}
-                className={'p-2 w-200 border border-primary-400 rounded cursor-pointer hover:bg-primary-500 hover:text-white'}>
+        <button className={'p-2 w-200 border border-primary-400 rounded cursor-pointer hover:bg-primary-500 hover:text-white'}>
             {title}
         </button>
     </Link>;

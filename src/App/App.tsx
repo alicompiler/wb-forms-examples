@@ -6,8 +6,7 @@ export const App: React.FC = () => {
     return <div style={{margin: '0 auto', width: 1200}}>
         <div className={'tailwind'}>
             <NavigationBar items={[
-                {title: 'Basic Elements', to: '/basic'},
-                {title: 'Tailwindcss Elements', to: '/tailwindcss'},
+                {title: 'Examples', to: '/examples'},
                 {title: 'Form Builder', to: '/builder'},
             ]}/>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import {Checkbox, Dropdown, Form, PasswordField, RadioButton, TextField} from 'wb-forms';
 import {ShowStateButton} from '../Components/ShowStateButton';
 
-export const AllElementsExample: React.FC = () => {
+export const BasicComponentsExample: React.FC = () => {
     return <Form>
         <TextField name={'text'}/>
         <br/>
