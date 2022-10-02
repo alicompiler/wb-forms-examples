@@ -1,0 +1,42 @@
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 0;
+}
+
+.navigation-button {
+    width: 120px;
+    padding: 8px;
+    border: 1px rgb(99 102 241) solid;
+    border-radius: 3px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.navigation-button:hover {
+    background: rgb(99 102 241);
+    color: white;
+}
+
+.examples-toolbox {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.examples-toolbox-select-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.examples-toolbox-select-wrapper select {
+    padding: 6px;
+}
+
+.examples-toolbox-select-wrapper label {
+    font-size: 16px;
+}

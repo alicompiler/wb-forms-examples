@@ -3,13 +3,11 @@ import {Link} from 'react-router-dom';
 
 interface Props {
     items: { title: string, to: string }[];
-    alignItems?: 'center' | 'start' | 'end'
 }
 
 export const NavigationBar: React.FC<Props> = (props) => {
     const {items} = props;
-    const alignItems = props.alignItems ?? 'center';
-    return <div className={`flex items-center justify-${alignItems} gap-2 py-2`}>
+    return <div className={'navigation-bar'}>
         {
             items.map((item, index) =>
                 <NavigationLink key={index} target={item.to} title={item.title}/>
@@ -20,7 +18,7 @@ export const NavigationBar: React.FC<Props> = (props) => {
 
 const NavigationLink: React.FC<{ target: string, title: string }> = ({target, title}) => {
     return <Link to={target}>
-        <button className={'p-2 w-200 border border-primary-400 rounded cursor-pointer hover:bg-primary-500 hover:text-white'}>
+        <button className={'navigation-button'}>
             {title}
         </button>
     </Link>;

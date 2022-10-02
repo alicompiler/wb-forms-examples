@@ -33,12 +33,12 @@ export const ExamplesPage: React.FC = () => {
     const dropdownOptions = Object.keys(options);
     return <div>
         <Form>
-            <div style={{padding: '16px 0', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-                <div style={{display: 'flex', gap: 8}}>
+            <div className={'examples-toolbox'}>
+                <div className={'examples-toolbox-select-wrapper'}>
                     <label>SELECT EXAMPLE:</label>
                     <Dropdown options={dropdownOptions} name={'example'}/>
                 </div>
-                <div style={{display: 'flex', gap: 8}}>
+                <div className={'examples-toolbox-select-wrapper'}>
                     <label>THEME:</label>
                     <Dropdown options={themes} name={'theme'} initialValue={'Basic'}/>
                 </div>
