@@ -2,6 +2,7 @@ import React from 'react';
 import {Dropdown, Form} from 'wb-forms';
 import {useField} from 'wb-forms/build/Field/Hooks';
 import {BasicComponentsExample} from './BasicComponentsExample';
+import {TailwindComponentsExample} from './TailwindComponentsExample';
 
 const ExampleNotReady: React.FC = () => <h1 style={{textAlign: 'center'}}>Example Not Ready Yet</h1>;
 const ExampleNotSelected: React.FC = () => <h1 style={{textAlign: 'center'}}>Example Not Selected</h1>;
@@ -9,7 +10,7 @@ const ExampleNotSelected: React.FC = () => <h1 style={{textAlign: 'center'}}>Exa
 const options: Record<string, React.ComponentType> = {
     '-': ExampleNotSelected,
     'X Basic Components': BasicComponentsExample,
-    'X Tailwind Components': ExampleNotReady,
+    'X Tailwind Components': TailwindComponentsExample,
     'X Tailwind - Simple Layout Factory': ExampleNotReady,
     'X Tailwind - Table Layout Factory': ExampleNotReady,
     'X Custom Validator': ExampleNotReady,
@@ -49,12 +50,15 @@ export const ExamplesPage: React.FC = () => {
 
 
 const ExampleView: React.FC = () => {
-    const field = useField('example');
-    if (!field) {
+    const exampleField = useField('example');
+    const themeField = useField('theme');
+    if (exampleField == null || themeField == null) {
         return null;
     }
-    const ViewComponent = options[field.value] ?? ExampleNotSelected;
+    const ViewComponent = options[exampleField.value] ?? ExampleNotSelected;
     return <div style={{border: '1px dashed #444', padding: 16}}>
-        <ViewComponent/>
+        <div role={'theme'} className={themeField.value === 'Tailwindcss' ? 'tailwind' : ''}>
+            <ViewComponent/>
+        </div>
     </div>;
 };

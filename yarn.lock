@@ -8704,10 +8704,10 @@ wb-core-provider@^0.4.1:
   resolved "https://registry.yarnpkg.com/wb-core-provider/-/wb-core-provider-0.4.2.tgz#7b3121f27439ed9079e46cb52ce65891042b5bd9"
   integrity sha512-r34OAUpFWRRq9Y2E8bWx2PDZG/VxTJpjh96jjsTu1ggswDPyMrKkvNBCa1Qnon1ouSQ3nRQHwwW4uUL7VlsUkQ==
 
-wb-forms-tailwindcss@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/wb-forms-tailwindcss/-/wb-forms-tailwindcss-0.3.2.tgz#7c20026dc90df2fa776bf3ed660a35abe5d31a1c"
-  integrity sha512-sQnNbGJdNehb/oxhn6V93/C8zRIqZgrUoZGmWE6wq6SG1ZY0A38Eq+1Dva7gWhMHu4YN+JWlWZ01NteNm8kgww==
+wb-forms-tailwindcss@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/wb-forms-tailwindcss/-/wb-forms-tailwindcss-0.3.4.tgz#c0aeb97f887f99e247293d5b27195de9e1fbc5a1"
+  integrity sha512-YP0VIt0nUbyKZsmVWZOvuc9EbIeUqZBn/zRyFoGCVwJmQYoDDuNrc5rcJ40brnKvQfoG+qRVSwY0ZLTpUF4phQ==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"

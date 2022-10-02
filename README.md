@@ -19,6 +19,7 @@
   - Custom Service Factory
   - DefaultsProvider
   - Additional Reducer
+  - Tailwind Theme Example
 
 - Real Examples:
   - Login
@@ -28,8 +29,7 @@
 
 CURRENT-ITERATION:
 
-- basic components: all components
-- basic components: factory example
+- FactoryBasedExampleComponent
 
 TODO: 
 

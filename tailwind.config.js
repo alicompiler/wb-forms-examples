@@ -4,7 +4,8 @@ const colors = require('tailwindcss/colors');
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
-    'safelist.txt'
+    'safelist.txt',
+    './node_modules/wb-forms-tailwindcss/**/*.{js,jsx,ts,tsx}',
   ],
   darkMode: 'class',
   important: '.tailwind',
@@ -26,8 +27,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
-  corePlugins: {
-    preflight: false
-  }
+  plugins: [
+    require('@tailwindcss/forms')
+  ]
 };
