@@ -4,6 +4,7 @@ import {useField} from 'wb-forms/build/Field/Hooks';
 import {BasicComponentsExample} from './BasicComponentsExample';
 import {TailwindComponentsExample} from './TailwindComponentsExample';
 import {TailwindSimpleLayoutFactoryExample} from './TailwindSimpleLayoutFactoryExample';
+import {TailwindTableLayoutFactoryExample} from './TailwindTableLayoutFactoryExample';
 
 const ExampleNotReady: React.FC = () => <h1 style={{textAlign: 'center'}}>Example Not Ready Yet</h1>;
 const ExampleNotSelected: React.FC = () => <h1 style={{textAlign: 'center'}}>Example Not Selected</h1>;
@@ -13,7 +14,7 @@ const options: Record<string, React.ComponentType> = {
     'X Basic Components': BasicComponentsExample,
     'X Tailwind Components': TailwindComponentsExample,
     'X Tailwind - Simple Layout Factory': TailwindSimpleLayoutFactoryExample,
-    'X Tailwind - Table Layout Factory': ExampleNotReady,
+    'X Tailwind - Table Layout Factory': TailwindTableLayoutFactoryExample,
     'X Custom Validator': ExampleNotReady,
     'X Clear Values Example': ExampleNotReady,
     'X DefaultsProvider': ExampleNotReady,
