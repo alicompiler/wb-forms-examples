@@ -8722,6 +8722,15 @@ wb-forms@^0.3.3:
     react-dom "^18.2.0"
     wb-core-provider "^0.4.1"
 
+wb-forms@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/wb-forms/-/wb-forms-0.3.4.tgz#5d3f1d431c33a20531325012f4eac6d01bd64d2a"
+  integrity sha512-xIiqHAf0HnwpVJnu7i4tmIyOgtIQN15YQV5d8LCUr7pahxIZDleyvLeF7RdNVJMLwSbodSEQYF9JQvjTytD9cg==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    wb-core-provider "^0.4.1"
+
 wbuf@^1.1.0, wbuf@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.3.tgz#c1d8d149316d3ea852848895cb6a0bfe887b87df"

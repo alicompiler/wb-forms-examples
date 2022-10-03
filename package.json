@@ -7,7 +7,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
-    "wb-forms": "^0.3.3",
+    "wb-forms": "^0.3.4",
     "wb-forms-tailwindcss": "^0.3.4"
   },
   "devDependencies": {
@@ -35,6 +35,7 @@
     "prebuild": "npx tailwindcss -i ./src/index.css -o ./build/tailwind.css",
     "prestart": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css",
     "start": "react-scripts start",
+    "start:tailwindcss": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
